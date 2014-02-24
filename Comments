@@ -1,0 +1,24 @@
+*ne faut-il pas autoriser l'ajout d'anomalie à tous les niveaux de zoom ?
+*penser à introduire les fonctions de compatibilité avec Internet Explorer
+
+//écriture function insertAfter
+	/*
+	function insertAfter(newElement, afterElement) {
+    	var parent = afterElement.parentNode;
+		
+    	if (parent.lastChild === afterElement) { // Si le dernier élément est le même que l'élément après lequel on veut insérer, il suffit de faire appendChild()
+        	parent.appendChild(newElement);
+    	} else { // Dans le cas contraire, on fait un insertBefore() sur l'élément suivant
+        	parent.insertBefore(newElement, afterElement.nextSibling);
+    	}
+	}
+	*/
+
+//Insertion d'un bouton de validation
+	/*
+	 
+	var newButton = document.createElement ('button');
+	newButton.value = 'Annuler'
+	insertAfter(newButton, ajoutAnomalie)
+	*/
+	
